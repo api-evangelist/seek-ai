@@ -1,7 +1,30 @@
 aid: seek-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seek-ai.png
 name: Seek AI
-description: Seek AI is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Seek AI was a New York City generative-AI enterprise data analytics company,
+  backed by Battery Ventures, that built a conversational analytics agent letting
+  business users query enterprise data in natural language and receive
+  trustworthy answers (translating plain-language questions into SQL and
+  narrative results over a company's own databases and warehouses). In 2025 Seek
+  AI was acquired by IBM and folded into IBM watsonx AI Labs, a developer-first
+  agentic-AI innovation hub in New York City; the company no longer operates an
+  independent product, developer program, or public API. Its former developer
+  subdomain (developers.seek.ai) now redirects to IBM's watsonx AI Labs, and the
+  standalone seek.ai marketing site is no longer served. This API Evangelist
+  profile records Seek AI as an acquired portfolio company and carries no live
+  API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/seek-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +32,39 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: ibm
+x-acquisition-note: >-
+  Acquired by IBM in 2025 and integrated into IBM watsonx AI Labs (New York City);
+  developers.seek.ai redirects to https://www.ibm.com/products/watsonx-ai-labs and
+  the standalone seek.ai web presence is no longer served (Cloudflare origin down /
+  redirect loop as of 2026-07-21).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Generative AI
+- Data Analytics
+- Natural Language Query
+- Enterprise Data
+- Business Intelligence
+- Acquired
+- IBM watsonx
+common:
+- type: DomainSecurity
+  url: security/seek-ai-domain-security.yml
+- type: Website
+  url: https://www.seek.ai
+- type: Acquirer
+  url: https://www.ibm.com/products/watsonx-ai-labs
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
