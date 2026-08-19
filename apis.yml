@@ -39,7 +39,7 @@ x-acquisition-note: >-
   developers.seek.ai redirects to https://www.ibm.com/products/watsonx-ai-labs and
   the standalone seek.ai web presence is no longer served (Cloudflare origin down /
   redirect loop as of 2026-07-21).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
