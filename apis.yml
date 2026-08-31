@@ -64,6 +64,11 @@ tags:
 - Acquired
 - IBM watsonx
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: IBM
+  x-relationship: acquired
+  x-evidence: "In 2025 Seek AI was acquired by IBM and folded into IBM watsonx AI Labs, a developer-first agentic-AI innovation hub in New York City; the company no longer operates an independent product, developer program, or public API."
 - type: DomainSecurity
   url: security/seek-ai-domain-security.yml
 - type: Website
