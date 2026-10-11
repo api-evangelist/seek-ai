@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "seek-ai",
+    "captured_at": "2026-10-11T193240",
+    "source_url": "https://seek.ai",
+    "source_type": "root-domain",
+    "file": "seek-ai-2026-10-11T193240.png",
+    "bytes": 79616,
+    "capture": "playwright-local"
+  }
+]
